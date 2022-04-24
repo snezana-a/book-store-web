@@ -25,4 +25,8 @@ public class Author {
         this.surname = surname;
         this.country = country;
     }
+
+    public Author() {
+
+    }
 }

@@ -9,4 +9,5 @@ public enum Category {
     BIOGRAPHY,
     CLASSICS,
     DRAMA
+
 }
