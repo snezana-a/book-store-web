@@ -23,6 +23,8 @@ public class Book {
 
     private Integer availableCopies;
 
+    private boolean isRented;
+
     public String getName() {
         return name;
     }
@@ -55,11 +57,20 @@ public class Book {
         this.availableCopies = availableCopies;
     }
 
+    public boolean isRented() {
+        return isRented;
+    }
+
+    public void setRented(boolean rented) {
+        isRented = rented;
+    }
+
     public Book(String name, Category category, Author author, Integer availableCopies) {
         this.name = name;
         this.category = category;
         this.author = author;
         this.availableCopies = availableCopies;
+        this.isRented = false;
     }
 
     public Book() {
