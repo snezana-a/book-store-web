@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:3001"})
+@CrossOrigin(origins = "https://emt-lab-bookstore-frontend.herokuapp.com/")
 @RequestMapping("/api/login")
 public class LoginController {
 
